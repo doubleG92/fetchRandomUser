@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>fetchRandomUser</title>
+</head>
+<body>
+    <input type="text" id="myInput" placeholder="Search for names.." title="Type in a name">
+    <table id="myTable">
+        <thead>
+            <tr class="header">
+                <th style="width:60%;">Name</th>
+                <th style="width:40%;">Country</th>
+            </tr>
+        </thead>
+
+        <tbody id="usersTableBody">
+
+        </tbody>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close" id="closeButtonForUserModal">&times;</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>Some text</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+          </div>
+    </table>
+    <script src="./script/index.js" type="module"></script>
+</body>
+</html>
